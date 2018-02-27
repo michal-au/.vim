@@ -1,10 +1,12 @@
 Installation:
 
-    git clone git://github.com/nelstrom/.vim.git ~/.vim
+    git clone git://github.com/michal-au/.vim.git ~/.vim
 
 Create symlink:
 
     ln -s ~/.vim/.vimrc ~/.vimrc
+    ln -s ~/.vim/.tmux.conf ~/.tmux.conf
+    ln -s ~/.vim/.inputrc ~/.inputrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
