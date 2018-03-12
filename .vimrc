@@ -4,6 +4,8 @@ call pathogen#helptags()
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+:imap kj <Esc>
+
 " highlighting insert mode
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul 
