@@ -5,5 +5,7 @@ set show-mode-in-prompt on
 # vi settings
 $if mode=vi
   set keymap vi-insert
+  set vi-ins-mode-string "+"
+  set vi-cmd-mode-string ":"
   "kj": vi-movement-mode # remap escape
 $endif
